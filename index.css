@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE+Guides&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite PE Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(152, 234, 248);
+}
+
+.quote-block{
+    background-color: aliceblue;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 1px #b9b8b892;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-block h2{
+    background-color: aliceblue;
+    margin-bottom: 30px;
+}
+
+#quote, #author{
+    background-color: aliceblue;
+}
+
+#quote{
+    margin-bottom: 30px;
+}
+
+#quote::after, #quote::before{
+    content: '"';
+}
+
+#author{
+    font-size: 12px;
+    position: relative;
+    left: 35%;
+}
+
+.buttons{
+    background-color: transparent;
+}
+
+.buttons button{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons .another{
+    background-color: rgb(127, 167, 247);
+    color: white;
+    border: none;
+}
+
+.buttons .tweeting{
+    margin-left: 20px;
+    background-color: transparent;
+    color: blue;
+    border: 1px solid rgb(151, 149, 149);
+}
+.buttons .tweeting img{
+    height: 10px;
+    margin-right: 5px;
+    position: relative;
+    top: 50%;
+    transform: translate(-10%,18%);
+    background-color: transparent;
+}
